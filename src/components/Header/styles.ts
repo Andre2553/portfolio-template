@@ -12,6 +12,7 @@ export const HeaderContainer = styled.header`
    height: 6rem;
    box-shadow: inset 0 -1px 0 #29292e;
    background:#121214;
+   z-index: 100;
 
    nav{ 
       display: flex;
@@ -74,7 +75,8 @@ export const NavButton = styled(NavLink)`
       border-bottom: 3px solid ${(props) => props.theme['green-500']};
    }
    &.active{
-      color: ${(props) => props.theme['green-500']};
+      color: ${(props) => props.theme['gray-300']};
+      background-color: ${(props) => props.theme['green-500']}; ;
    }
       
       
