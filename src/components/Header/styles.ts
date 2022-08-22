@@ -30,7 +30,7 @@ export const HeaderContainer = styled.header`
    }
 `;
 export const Logo = styled.li`
-   width: 50rem;
+   width: 50vw;
    height: 3rem;
    margin-top:20px ;
    display: flex;
