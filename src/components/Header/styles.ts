@@ -15,6 +15,13 @@ export const HeaderContainer = styled.header`
    z-index: 100;
 
    nav{ 
+      @media (min-width: 768px) {
+         display: flex;
+         justify-content: space-between;
+         padding-bottom: 0;
+         height: 70px;
+         align-items: center;
+      }
       display: flex;
       gap: 0.5rem;
       ul{
@@ -28,6 +35,31 @@ export const HeaderContainer = styled.header`
          list-style: none;
       }
    }
+   .hamburger{
+      border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #283b8b;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+// positions the icon to the right and center aligns it vertically
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+}
+.hamburger:hover {
+  background-color: #2642af;
+}
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+}
+
 `;
 export const Logo = styled.li`
    width: 50vw;
@@ -78,6 +110,11 @@ export const NavButton = styled(NavLink)`
       color: ${(props) => props.theme['gray-300']};
       background-color: ${(props) => props.theme['green-500']}; ;
    }
+   @media screen and (max-width: 768px) {
+
+    display: none;
+  
+}
       
       
 `
