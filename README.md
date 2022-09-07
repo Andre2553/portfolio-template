@@ -5,9 +5,9 @@
 </h3>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Andre2553/Omnistack-Project">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Andre2553/portfolio-template">
   
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Andre2553/Omnistack-Project">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Andre2553/portfolio-template">
 </p>
 
 <p align="center">
