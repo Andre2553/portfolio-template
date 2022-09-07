@@ -29,10 +29,11 @@ export const HeaderContainer = styled.header`
          flex-direction: row;
          align-items: center;
          justify-content: center;
-         margin: unset;
+         margin: unset ;
          padding: 0 2rem;
          display: flex;
          list-style: none;
+         margin-top: 10px ;
       }
    }
    .hamburger{
@@ -72,7 +73,7 @@ export const Logo = styled.li`
    a{
       text-decoration: none;
       &:hover{
-      border-bottom: none;
+         border-bottom: none;
       }
       &:focus{
          color: none;
@@ -107,7 +108,6 @@ export const NavButton = styled(NavLink)`
       border-bottom: 3px solid ${(props) => props.theme['green-500']};
    }
    &.active{
-      color: ${(props) => props.theme['gray-300']};
       background-color: ${(props) => props.theme['green-500']}; ;
    }
    @media screen and (max-width: 768px) {

@@ -8,5 +8,9 @@ export const ProjectContainer = styled(motion.div)`
    border-radius: 10px;
    background-color: ${(props) => props.theme["gray-800"]};
    display: flex;
+   @media screen and (max-width: 768px) {
 
+      width: 90vw
+
+   }
 `;

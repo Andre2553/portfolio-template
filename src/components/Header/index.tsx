@@ -38,10 +38,10 @@ export function Header() {
             </NavLink>
           </Logo>
           <li>
-            <NavButton to="/aboutMe">About Me</NavButton>
+            <NavButton to="/about-me">About Me</NavButton>
           </li>
           <li>
-            <NavButton to="/contactMe">Contact Me</NavButton>
+            <NavButton to="/contact-me">Contact Me</NavButton>
           </li>
         </ul>
       </nav>

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const SkillContainer = styled.main`
  flex: 1;
-   padding: 8rem 10rem 0 10rem;
+   padding: 8rem 10rem 8rem 10rem;
 
    display: flex;
    flex-direction: column;
