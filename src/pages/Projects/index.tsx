@@ -9,11 +9,11 @@ export function Projects(){
 return (
    <ProjectsContainer>
        <ProjectsList>
-         <Project/>
-         <Project/>
-         <Project/>
-         <Project/>
-         <Project/>
+         <Project id={0}/>
+         <Project id={1}/>
+         <Project id={2}/>
+         <Project id={3}/>
+         <Project id={4}/>
        </ProjectsList>
    </ProjectsContainer>
 )

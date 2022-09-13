@@ -12,6 +12,10 @@ export const SkillContainer = styled.main`
       text-align: center;
       color: ${(props) => props.theme['gray-100']};
    }
+   @media screen and (max-width: 768px) {
+      padding: 8rem 2rem 8rem 2rem;
+      flex-direction: column;
+}
 
 `;
 export const SkillsList = styled.div`
@@ -22,7 +26,6 @@ export const SkillsList = styled.div`
    table{ 
       width: 100%;
       border-collapse: collapse;
-      min-width: 600px;
 
       th {
          
@@ -31,6 +34,9 @@ export const SkillsList = styled.div`
          color: ${(props) => props.theme['gray-100']};
          font-size: 0.875rem;
          line-height: 1.6;
+         @media screen and (max-width: 768px) {
+            font-size: 0.8rem;
+         }
       }
       td {
          padding: 1rem;
@@ -38,6 +44,10 @@ export const SkillsList = styled.div`
          font-size: 1.5rem;
          line-height: 1.6;
          text-align: center;
+         @media screen and (max-width: 768px) {
+            font-size: 0.9rem;
+            padding: 0.5rem;
+         }
       }
    }
 `
