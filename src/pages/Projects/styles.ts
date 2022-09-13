@@ -14,7 +14,7 @@ export const ProjectsContainer = styled.div`
 `;
 export const ProjectsList = styled.div`
    flex: 1;
-   overflow: auto;
+   overflow: hidden;
    div{
       :nth-child(even){
          background-color: ${(props) => props.theme["gray-800"]};
@@ -25,5 +25,6 @@ export const ProjectsList = styled.div`
          background-color: ${(props) => props.theme["gray-700"]};
          
       }
+
    }
    `;

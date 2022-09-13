@@ -20,7 +20,7 @@ export const FooterContainer = styled.section`
         }
         @media (max-width: 768px) {
                 flex-direction: column-reverse;
-                
+                font-size: 0.7rem;
 
                 p{
                         text-align: center;

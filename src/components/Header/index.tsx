@@ -1,4 +1,4 @@
-import { CustomScroll, HeaderContainer, Logo, NavButton } from "./styles";
+import { CustomScroll, HeaderContainer, ImageLogo, Logo, NavButton } from "./styles";
 import { Timer, Scroll } from "phosphor-react";
 import { motion, useScroll } from "framer-motion";
 import { NavLink } from "react-router-dom";
@@ -34,7 +34,7 @@ export function Header() {
           </li>
           <Logo>
             <NavLink to="/">
-              <Image />
+              <ImageLogo />
             </NavLink>
           </Logo>
           <li>

@@ -10,7 +10,7 @@ export const ProjectContainer = styled(motion.div)`
    display: flex;
    @media screen and (max-width: 768px) {
 
-      width: 90vw
-
+      width: 90vw;
+      height: 50vh;
    }
 `;

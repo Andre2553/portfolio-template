@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
+import Image from "../../assets/logo";
 export const HeaderContainer = styled.header`
    position: fixed;
    top: 0;
@@ -13,15 +14,8 @@ export const HeaderContainer = styled.header`
    box-shadow: inset 0 -1px 0 #29292e;
    background:#121214;
    z-index: 100;
-
    nav{ 
-      @media (min-width: 768px) {
-         display: flex;
-         justify-content: space-between;
-         padding-bottom: 0;
-         height: 70px;
-         align-items: center;
-      }
+
       display: flex;
       gap: 0.5rem;
       ul{
@@ -56,9 +50,17 @@ export const HeaderContainer = styled.header`
   background-color: #2642af;
 }
 @media screen and (max-width: 768px) {
-  .hamburger {
+   height: 4rem;
+   .hamburger {
     display: block;
   }
+  
+   nav{
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 0;
+      align-items: center;
+   }
 }
 
 `;
@@ -69,7 +71,13 @@ export const Logo = styled.li`
    display: flex;
    align-items: center;
    justify-content: center;
-
+   @media screen and (max-width: 768px) {
+      svg{
+         width: 40vw;
+         margin-bottom: 10px ;
+      }
+      
+   }
    a{
       text-decoration: none;
       &:hover{
@@ -87,7 +95,7 @@ export const CustomScroll = styled(motion.div)`
   top: 0;
   left: 0;
   right: 0;
-  height: 10px;
+  height: 0.3rem;
   background: ${(props) => props.theme['green-300']};
   transform-origin: 0%;
 
@@ -114,7 +122,11 @@ export const NavButton = styled(NavLink)`
 
     display: none;
   
+}`
+export const ImageLogo = styled(Image)`
+   width: 10px;
+   @media screen and (max-width: 768px) {
+      width: 10px;
 }
+   `   
       
-      
-`
