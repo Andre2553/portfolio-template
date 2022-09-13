@@ -19,9 +19,16 @@ export const FooterContainer = styled.section`
                 justify-content: center;
         }
         @media (max-width: 768px) {
-                flex-direction: column;
+                flex-direction: column-reverse;
+                
+
                 p{
+                        text-align: center;
                         width: 100%;
+                        margin-top: 1rem ;
+                }
+                a{
+                        margin-top: 1rem ;
                 }
         }
 `
