@@ -1,7 +1,7 @@
 # portfolio-template
 
 <h3 align="center">
-  Use this project as template for your new portfolio! 
+  Use this project as template for your new portfolio! In Development ...
 </h3>
 
 <p align="center">
@@ -37,7 +37,7 @@ This application is being developed with the following technologies:
 
 ## 💻 Installation
 
-CLone this repository
+Clone this repository
 
 ### Prerequisites
 
