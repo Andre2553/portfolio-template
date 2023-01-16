@@ -32,8 +32,6 @@ This application is being developed with the following technologies:
 - [Styled Components](https://styled-components.com/)
 - [Axios](https://github.com/axios/axios)
 - [Vite](https://vitejs.dev/)
-- [GraphQL](https://graphql.org/)
-- [Hygraph](https://hygraph.com/)
 
 ## 💻 Installation
 
